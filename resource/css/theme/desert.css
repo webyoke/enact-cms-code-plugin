@@ -1,0 +1,113 @@
+/* desert scheme ported from vim to google prettify */
+pre.desert.prettyprint,
+code.desert.prettyprint {
+  display: block;
+  background-color: #333;
+  /* string  - pink */
+  /* comment - skyblue */
+  /* type    - lightgreen */
+  /* literal - darkred */
+  /* punctuation */
+  /* plaintext */
+  /* html/xml tag    - lightyellow */
+  /* attribute name  - khaki */
+  /* attribute value - pink */
+  /* decimal         - lightgreen */
+  /* Specify class=linenums on a pre to get line numbering */
+  /* IE indents via margin-left */
+  /* Alternate shading for lines */ }
+  pre.desert.prettyprint .nocode,
+  code.desert.prettyprint .nocode {
+    background-color: none;
+    color: #000; }
+  pre.desert.prettyprint .str,
+  code.desert.prettyprint .str {
+    color: #ffa0a0; }
+  pre.desert.prettyprint .kwd,
+  code.desert.prettyprint .kwd {
+    color: #f0e68c;
+    font-weight: bold; }
+  pre.desert.prettyprint .com,
+  code.desert.prettyprint .com {
+    color: #87ceeb; }
+  pre.desert.prettyprint .typ,
+  code.desert.prettyprint .typ {
+    color: #98fb98; }
+  pre.desert.prettyprint .lit,
+  code.desert.prettyprint .lit {
+    color: #cd5c5c; }
+  pre.desert.prettyprint .pun,
+  code.desert.prettyprint .pun {
+    color: #fff; }
+  pre.desert.prettyprint .pln,
+  code.desert.prettyprint .pln {
+    color: #fff; }
+  pre.desert.prettyprint .tag,
+  code.desert.prettyprint .tag {
+    color: #f0e68c;
+    font-weight: bold; }
+  pre.desert.prettyprint .atn,
+  code.desert.prettyprint .atn {
+    color: #bdb76b;
+    font-weight: bold; }
+  pre.desert.prettyprint .atv,
+  code.desert.prettyprint .atv {
+    color: #ffa0a0; }
+  pre.desert.prettyprint .dec,
+  code.desert.prettyprint .dec {
+    color: #98fb98; }
+  pre.desert.prettyprint ol.linenums,
+  code.desert.prettyprint ol.linenums {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #AEAEAE; }
+  pre.desert.prettyprint li.L0, pre.desert.prettyprint li.L1, pre.desert.prettyprint li.L2, pre.desert.prettyprint li.L3, pre.desert.prettyprint li.L5, pre.desert.prettyprint li.L6, pre.desert.prettyprint li.L7, pre.desert.prettyprint li.L8,
+  code.desert.prettyprint li.L0,
+  code.desert.prettyprint li.L1,
+  code.desert.prettyprint li.L2,
+  code.desert.prettyprint li.L3,
+  code.desert.prettyprint li.L5,
+  code.desert.prettyprint li.L6,
+  code.desert.prettyprint li.L7,
+  code.desert.prettyprint li.L8 {
+    list-style-type: none; }
+  @media print {
+    pre.desert.prettyprint,
+    code.desert.prettyprint {
+      background-color: none; }
+      pre.desert.prettyprint .str,
+      code.desert.prettyprint .str {
+        color: #060; }
+      pre.desert.prettyprint .kwd,
+      code.desert.prettyprint .kwd {
+        color: #006;
+        font-weight: bold; }
+      pre.desert.prettyprint .com,
+      code.desert.prettyprint .com {
+        color: #600;
+        font-style: italic; }
+      pre.desert.prettyprint .typ,
+      code.desert.prettyprint .typ {
+        color: #404;
+        font-weight: bold; }
+      pre.desert.prettyprint .lit,
+      code.desert.prettyprint .lit {
+        color: #044; }
+      pre.desert.prettyprint .pun,
+      code.desert.prettyprint .pun {
+        color: #440; }
+      pre.desert.prettyprint .pln,
+      code.desert.prettyprint .pln {
+        color: #000; }
+      pre.desert.prettyprint .tag,
+      code.desert.prettyprint .tag {
+        color: #006;
+        font-weight: bold; }
+      pre.desert.prettyprint .atn,
+      code.desert.prettyprint .atn {
+        color: #404; }
+      pre.desert.prettyprint .atv,
+      code.desert.prettyprint .atv {
+        color: #060; } }
+
+/*# sourceMappingURL=desert.css.map */

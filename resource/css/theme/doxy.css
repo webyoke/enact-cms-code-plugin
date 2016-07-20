@@ -1,0 +1,145 @@
+/* Doxy pretty-printing styles. Used with prettify.js.  */
+pre.doxy.prettyprint,
+code.doxy.prettyprint {
+  font-family: 'Droid Sans Mono','CPMono_v07 Bold','Droid Sans';
+  font-weight: bold;
+  font-size: 9pt;
+  background-color: #0f0f0f;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  border-radius: 8px;
+  width: 95%;
+  margin: 1em auto;
+  padding: 1em;
+  white-space: pre-wrap;
+  /* string  - eggyolk gold */
+  /* keyword - light slate blue */
+  /* comment - green */
+  /* type - turq green */
+  /* literal - cherry red */
+  /* punctuation - lemon chiffon4  */
+  /* plaintext - white */
+  /* html/xml tag  (bluey)  */
+  /* html tag  light purply*/
+  /* xslt tag  light purply*/
+  /* html/xml attribute name  - lt turquoise */
+  /* html/xml attribute value - rosy brown2 */
+  /* decimal - blue */
+  /* Specify class=linenums on a pre to get line numbering; line numbers themselves are the same color as punctuation */
+  /* IE indents via margin-left */
+  /* Alternate shading for lines */
+  /* print is mostly unchanged from default at present  */ }
+  pre.doxy.prettyprint a,
+  code.doxy.prettyprint a {
+    text-decoration: none; }
+  pre.doxy.prettyprint .str,
+  code.doxy.prettyprint .str {
+    color: #fec243; }
+  pre.doxy.prettyprint .kwd,
+  code.doxy.prettyprint .kwd {
+    color: #8470FF; }
+  pre.doxy.prettyprint .com,
+  code.doxy.prettyprint .com {
+    color: #32cd32;
+    font-style: italic; }
+  pre.doxy.prettyprint .typ,
+  code.doxy.prettyprint .typ {
+    color: #6ecbcc; }
+  pre.doxy.prettyprint .lit,
+  code.doxy.prettyprint .lit {
+    color: #d06; }
+  pre.doxy.prettyprint .pun,
+  code.doxy.prettyprint .pun {
+    color: #8B8970; }
+  pre.doxy.prettyprint .pln,
+  code.doxy.prettyprint .pln {
+    color: #f0f0f0; }
+  pre.doxy.prettyprint .tag,
+  code.doxy.prettyprint .tag {
+    color: #9c9cff; }
+  pre.doxy.prettyprint .htm,
+  code.doxy.prettyprint .htm {
+    color: #dda0dd; }
+  pre.doxy.prettyprint .xsl,
+  code.doxy.prettyprint .xsl {
+    color: #d0a0d0; }
+  pre.doxy.prettyprint .atn,
+  code.doxy.prettyprint .atn {
+    color: #46eeee;
+    font-weight: normal; }
+  pre.doxy.prettyprint .atv,
+  code.doxy.prettyprint .atv {
+    color: #EEB4B4; }
+  pre.doxy.prettyprint .dec,
+  code.doxy.prettyprint .dec {
+    color: #3387CC; }
+  pre.doxy.prettyprint ol.linenums,
+  code.doxy.prettyprint ol.linenums {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #8B8970; }
+  pre.doxy.prettyprint li.L0, pre.doxy.prettyprint li.L1, pre.doxy.prettyprint li.L2, pre.doxy.prettyprint li.L3, pre.doxy.prettyprint li.L5, pre.doxy.prettyprint li.L6, pre.doxy.prettyprint li.L7, pre.doxy.prettyprint li.L8,
+  code.doxy.prettyprint li.L0,
+  code.doxy.prettyprint li.L1,
+  code.doxy.prettyprint li.L2,
+  code.doxy.prettyprint li.L3,
+  code.doxy.prettyprint li.L5,
+  code.doxy.prettyprint li.L6,
+  code.doxy.prettyprint li.L7,
+  code.doxy.prettyprint li.L8 {
+    list-style-type: none; }
+  @media print {
+    pre.doxy.prettyprint,
+    code.doxy.prettyprint {
+      background-color: #fff; }
+      pre.doxy.prettyprint .str,
+      code.doxy.prettyprint .str {
+        color: #088; }
+      pre.doxy.prettyprint .kwd,
+      code.doxy.prettyprint .kwd {
+        color: #006;
+        font-weight: bold; }
+      pre.doxy.prettyprint .com,
+      code.doxy.prettyprint .com {
+        color: #oc3;
+        font-style: italic; }
+      pre.doxy.prettyprint .typ,
+      code.doxy.prettyprint .typ {
+        color: #404;
+        font-weight: bold; }
+      pre.doxy.prettyprint .lit,
+      code.doxy.prettyprint .lit {
+        color: #044; }
+      pre.doxy.prettyprint .pun,
+      code.doxy.prettyprint .pun {
+        color: #440; }
+      pre.doxy.prettyprint .pln,
+      code.doxy.prettyprint .pln {
+        color: #000; }
+      pre.doxy.prettyprint .tag,
+      code.doxy.prettyprint .tag {
+        color: #b66ff7;
+        font-weight: bold; }
+      pre.doxy.prettyprint .htm,
+      code.doxy.prettyprint .htm {
+        color: #606;
+        font-weight: bold; }
+      pre.doxy.prettyprint .xsl,
+      code.doxy.prettyprint .xsl {
+        color: #606;
+        font-weight: bold; }
+      pre.doxy.prettyprint .atn,
+      code.doxy.prettyprint .atn {
+        color: #c71585;
+        font-weight: normal; }
+      pre.doxy.prettyprint .atv,
+      code.doxy.prettyprint .atv {
+        color: #088;
+        font-weight: normal; } }
+
+/*  background is black (well, just a tad less dark )  */
+
+/*# sourceMappingURL=doxy.css.map */

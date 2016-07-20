@@ -1,0 +1,104 @@
+/*
+ * Derived from einaros's Sons of Obsidian theme at
+ * http://studiostyl.es/schemes/son-of-obsidian by
+ * Alex Ford of CodeTunnel:
+ * http://CodeTunnel.com/blog/post/71/google-code-prettify-obsidian-theme
+ */
+pre.sons-of-obsidian.prettyprint,
+code.sons-of-obsidian.prettyprint {
+  border: 0px solid #888;
+  background: #000; }
+  pre.sons-of-obsidian.prettyprint .str,
+  code.sons-of-obsidian.prettyprint .str {
+    color: #EC7600; }
+  pre.sons-of-obsidian.prettyprint .kwd,
+  code.sons-of-obsidian.prettyprint .kwd {
+    color: #93C763; }
+  pre.sons-of-obsidian.prettyprint .com,
+  code.sons-of-obsidian.prettyprint .com {
+    color: #66747B; }
+  pre.sons-of-obsidian.prettyprint .typ,
+  code.sons-of-obsidian.prettyprint .typ {
+    color: #678CB1; }
+  pre.sons-of-obsidian.prettyprint .lit,
+  code.sons-of-obsidian.prettyprint .lit {
+    color: #FACD22; }
+  pre.sons-of-obsidian.prettyprint .pun,
+  code.sons-of-obsidian.prettyprint .pun {
+    color: #F1F2F3; }
+  pre.sons-of-obsidian.prettyprint .pln,
+  code.sons-of-obsidian.prettyprint .pln {
+    color: #F1F2F3; }
+  pre.sons-of-obsidian.prettyprint .tag,
+  code.sons-of-obsidian.prettyprint .tag {
+    color: #8AC763; }
+  pre.sons-of-obsidian.prettyprint .atn,
+  code.sons-of-obsidian.prettyprint .atn {
+    color: #E0E2E4; }
+  pre.sons-of-obsidian.prettyprint .atv,
+  code.sons-of-obsidian.prettyprint .atv {
+    color: #EC7600; }
+  pre.sons-of-obsidian.prettyprint .dec,
+  code.sons-of-obsidian.prettyprint .dec {
+    color: purple; }
+  pre.sons-of-obsidian.prettyprint ol.linenums,
+  code.sons-of-obsidian.prettyprint ol.linenums {
+    margin-top: 0;
+    margin-bottom: 0; }
+  pre.sons-of-obsidian.prettyprint li.L0, pre.sons-of-obsidian.prettyprint li.L1, pre.sons-of-obsidian.prettyprint li.L2, pre.sons-of-obsidian.prettyprint li.L3, pre.sons-of-obsidian.prettyprint li.L4, pre.sons-of-obsidian.prettyprint li.L5, pre.sons-of-obsidian.prettyprint li.L6, pre.sons-of-obsidian.prettyprint li.L7, pre.sons-of-obsidian.prettyprint li.L8, pre.sons-of-obsidian.prettyprint li.L9,
+  code.sons-of-obsidian.prettyprint li.L0,
+  code.sons-of-obsidian.prettyprint li.L1,
+  code.sons-of-obsidian.prettyprint li.L2,
+  code.sons-of-obsidian.prettyprint li.L3,
+  code.sons-of-obsidian.prettyprint li.L4,
+  code.sons-of-obsidian.prettyprint li.L5,
+  code.sons-of-obsidian.prettyprint li.L6,
+  code.sons-of-obsidian.prettyprint li.L7,
+  code.sons-of-obsidian.prettyprint li.L8,
+  code.sons-of-obsidian.prettyprint li.L9 {
+    color: #555;
+    list-style-type: decimal; }
+  pre.sons-of-obsidian.prettyprint li.L1, pre.sons-of-obsidian.prettyprint li.L3, pre.sons-of-obsidian.prettyprint li.L5, pre.sons-of-obsidian.prettyprint li.L7, pre.sons-of-obsidian.prettyprint li.L9,
+  code.sons-of-obsidian.prettyprint li.L1,
+  code.sons-of-obsidian.prettyprint li.L3,
+  code.sons-of-obsidian.prettyprint li.L5,
+  code.sons-of-obsidian.prettyprint li.L7,
+  code.sons-of-obsidian.prettyprint li.L9 {
+    background: #111; }
+  @media print {
+    pre.sons-of-obsidian.prettyprint .str,
+    code.sons-of-obsidian.prettyprint .str {
+      color: #060; }
+    pre.sons-of-obsidian.prettyprint .kwd,
+    code.sons-of-obsidian.prettyprint .kwd {
+      color: #006;
+      font-weight: bold; }
+    pre.sons-of-obsidian.prettyprint .com,
+    code.sons-of-obsidian.prettyprint .com {
+      color: #600;
+      font-style: italic; }
+    pre.sons-of-obsidian.prettyprint .typ,
+    code.sons-of-obsidian.prettyprint .typ {
+      color: #404;
+      font-weight: bold; }
+    pre.sons-of-obsidian.prettyprint .lit,
+    code.sons-of-obsidian.prettyprint .lit {
+      color: #044; }
+    pre.sons-of-obsidian.prettyprint .pun,
+    code.sons-of-obsidian.prettyprint .pun {
+      color: #440; }
+    pre.sons-of-obsidian.prettyprint .pln,
+    code.sons-of-obsidian.prettyprint .pln {
+      color: #000; }
+    pre.sons-of-obsidian.prettyprint .tag,
+    code.sons-of-obsidian.prettyprint .tag {
+      color: #006;
+      font-weight: bold; }
+    pre.sons-of-obsidian.prettyprint .atn,
+    code.sons-of-obsidian.prettyprint .atn {
+      color: #404; }
+    pre.sons-of-obsidian.prettyprint .atv,
+    code.sons-of-obsidian.prettyprint .atv {
+      color: #060; } }
+
+/*# sourceMappingURL=sons-of-obsidian.css.map */
